@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: 50px auto 20px;
+}
+
+h1 {
+    color: black;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Azul */
+    color: white;
+}
+
+.forgot-password-link {
+    color: black;
+    text-decoration: none;
+    display: block; /* Alterado para bloqueio para ocupar toda a largura */
+    margin-top: 10px; /* Margem superior adicionada para separação */
+}
+
+.button-container .signin-button {
+    margin-left: 10px; /* Adiciona margem à esquerda para separar os botões */
+}

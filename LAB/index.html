@@ -1,67 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <title>LABLOGIN</title>
-    <style>
-        body {
-            text-align: center;
-            background-size: cover;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        img {
-            width: 20%;
-            display: block;
-            margin: 50px auto 20px;
-        }
-
-        h1 {
-            color: black;
-            margin-top: 20px;
-        }
-
-        .button-container {
-            margin-top: 20px;
-        }
-
-        .button-container button {
-            margin: 10px;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: #007bff; /* Azul */
-            color: white;
-        }
-
-        .forgot-password-link {
-            color: black;
-            text-decoration: none;
-            display: block; /* Alterado para bloqueio para ocupar toda a largura */
-            margin-top: 10px; /* Margem superior adicionada para separação */
-        }
-
-        .button-container .signin-button {
-            margin-left: 10px; /* Adiciona margem à esquerda para separar os botões */
-        }
-
-    </style>
+    <link rel="stylesheet" href="style_index.css">
 </head>
 <body>
-    <img src="./assets/logo.jpeg" alt="Logo da LabLogin">
-    <h1>Bem-vindo</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/4345/4345800.png" alt="Logo da LabLogin">
+    <h1>TASK APP</h1>
 
     <!-- Container para os botões -->
     <div class="button-container">
         <!-- Link para a página de login -->
         <a href="login.html"><button>Login</button></a>
-        <a href="cadastro.html"><button>Sign In</button></a>
+        <a href="cadastro.html"><button>Register</button></a>
     </div>
 
     <!-- Link "Esqueci a Senha" -->
-    <a href="recuperar_senha.html" class="forgot-password-link">Esqueci a Senha</a>
+    <a href="recuperar_senha.html" class="forgot-password-link">forgot password?</a>
 
     <script>
         document.querySelector('.forgot-password-link').addEventListener('click', function(event) {
