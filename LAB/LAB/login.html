@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TASKAPP</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <div class="container">
+        <input type="button" value="back" onclick="history.back()" class="back-button">
+        <h1>LOGIN</h1>
+        <form id="loginForm" action="menu.html" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="senha">Password:</label>
+            <input type="password" id="senha" name="senha">
+            <input type="submit" value="Login">
+        </form>
+        <a href="password.html" class="forgot-password-link">forgot password?</a>
+    </div>
+</body>
+</html>

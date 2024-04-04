@@ -1,0 +1,49 @@
+body {
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 10%;
+    display: block;
+    margin: 20px 0 0 20px;
+}
+
+h1 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+    table, th, td {
+    border: 1px inset black;
+} 
+
+p {
+    font-size:30px; 
+}
+.botao-container {
+    /* position: absolute;
+    top: 10px;
+    right: 10px; */
+    float: right;
+}
+
+.botao-container button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Azul */
+    color: white; 
+}
+.table-container {
+    width: 80%;
+    margin: 0 auto; /* Isso centraliza a div na página */
+}
+.table-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adiciona espaço entre o título e a tabela */
+}
+
